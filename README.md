@@ -115,7 +115,7 @@ export default function App() {
 | headerPosition           | no       |         | `reanimated` node which holds position of bottom sheet's header (in dp) |
 | overdragResistanceFactor  | no       |   0     | `Defines how violently sheet has to stopped while overdragging. 0 means no overdrag |
 | springConfig              | no       | `{ }`   | Overrides config for spring animation |
-| innerGestureHandlerRefs   | no       |         | Refs for gesture handlers used for building bottom sheet. The array consists fo three refs. The first for PanGH used for inner content scrolling. The second for PanGH used for header. The third for TapGH used for stopping scrolling the content.   |
+| innerGestureHandlerRefs   | no       |         | Refs for gesture handlers used for building bottom sheet. The array consists for three refs. The first for PanGH used for inner content scrolling. The second for PanGH used for header. The third for TapGH used for stopping scrolling the content.   |
 | simultaneousHandlers | no       |         | Accepts a react ref object or an array of refs to handler components. |
 | onOpenStart | no       |         | Accepts a function to be called when the bottom sheet starts to open. |
 | onOpenEnd | no       |         | Accepts a function to be called when the bottom sheet is almost fully openned. |
